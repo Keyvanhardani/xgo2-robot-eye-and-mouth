@@ -3,6 +3,8 @@
 
 This repository contains code for simulating facial expressions on a universal robot. The original code was designed for the XGO robot, but it has been adapted to be more universal and work on any system with a screen. Instead of using an LCD screen specific to the XGO robot, this version uses the Matplotlib library for displaying images, making it compatible with a wide range of devices.
 
+![XGO Robot](https://github.com/Keyvanhardani/xgo2-robot-eye-and-mouth/blob/main/universal.png)
+
 ## Installation
 
 Before running the script, ensure you have Python installed along with the following libraries:
