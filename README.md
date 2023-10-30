@@ -3,7 +3,7 @@
 
 This repository contains the open-source code for eye and mouth animations of the XGO2 robot. The code includes algorithms for controlling eye movements and mouth animations based on spoken words, enhancing the robot's ability to communicate and interact.
 
-![XGO Robot](xgo.png)
+![XGO Robot](https://github.com/Keyvanhardani/xgo2-robot-eye-and-mouth/blob/main/Xgo.png)
 
 ## Features
 
