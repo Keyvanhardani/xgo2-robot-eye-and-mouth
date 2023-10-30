@@ -36,6 +36,12 @@ start_speaking("Your text here")
 
 # To stop the animation
 stop_speaking()
+ 
+OR 
+
+thread = start_speaking("Your text here")
+stop_speaking(thread)
+
 ```
 
 ## Customization
