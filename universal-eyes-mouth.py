@@ -112,4 +112,5 @@ def stop_speaking(thread):
 
 # Example of starting and stopping speaking
 thread = start_speaking("Hello World")
-#stop_speaking(thread)
+time.sleep(2)
+stop_speaking(thread)
