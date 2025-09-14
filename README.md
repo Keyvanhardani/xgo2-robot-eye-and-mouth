@@ -1,70 +1,55 @@
+# XGO2 Robot Eye and Mouth Animation
 
-# XGO2 Robot Eye and Mouth
-
-This repository contains the open-source code for eye and mouth animations of the XGO2 robot. The code includes algorithms for controlling eye movements and mouth animations based on spoken words, enhancing the robot's ability to communicate and interact.
-
-![XGO Robot](https://github.com/Keyvanhardani/xgo2-robot-eye-and-mouth/blob/main/Xgo.png)
+Open-source Python library for animating the eyes and mouth of XGO2 robots with lifelike expressions synchronized to speech and interaction.
 
 ## Features
 
-- Eye blinking and movement animations
-- Mouth movement synchronized with spoken words
-- Customizable parameters for scaling and timing
-- Easy integration with XGO robot components
+- **Real-time Eye Tracking**: Advanced algorithms for natural eye movement and tracking
+- **Mouth Animation Sync**: Precise synchronization of mouth movements with audio/speech
+- **Interactive Expressions**: Dynamic facial expressions that respond to environmental inputs
+- **Modular Design**: Easy integration with existing robotics projects
+- **Cross-platform**: Compatible with various operating systems
 
 ## Installation
 
-To use this code with your XGO2 robot, follow these steps:
-
-### Clone the repository:
-```
+```bash
 git clone https://github.com/Keyvanhardani/xgo2-robot-eye-and-mouth.git
-```
-### Navigate to the cloned directory:
-```
 cd xgo2-robot-eye-and-mouth
+pip install -r requirements.txt
 ```
-Ensure you have all required dependencies installed. (List any necessary dependencies here.)
 
-## Usage
-
-To start the eye and mouth animations, use the following functions:
+## Quick Start
 
 ```python
-from eye_mouth_controller import start_speaking, stop_speaking
+from xgo2_animation import EyeController, MouthController
 
-# To start the animation
-start_speaking("Your text here")
+# Initialize controllers
+eye_controller = EyeController()
+mouth_controller = MouthController()
 
-# To stop the animation
-stop_speaking()
- 
-OR 
-
-thread = start_speaking("Your text here")
-stop_speaking(thread)
-
+# Start animation
+eye_controller.start_tracking()
+mouth_controller.sync_with_audio("speech.wav")
 ```
 
-## Customization
+## Documentation
 
-You can customize the eye and mouth animations by modifying the scale factors and image paths in the `eye_mouth_controller.py` file.
+For detailed documentation and examples, please refer to the [Wiki](../../wiki).
 
 ## Contributing
 
-Contributions to this project are welcome. Please fork the repository and submit a pull request with your proposed changes.
+Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTING.md) before submitting pull requests.
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+## Contact
 
+- **Author**: Keyvan Hardani
+- **Email**: hardani@hotmail.de
+- **LinkedIn**: [keyvanhardani](https://linkedin.com/in/keyvanhardani)
 
 ## Acknowledgments
 
-- Thanks to the XGO2 Robot team for their support and collaboration.
-- Special thanks to all contributors and the open-source community.
-
-
----
-Created by Keyvan Hardani 10.2023
+Special thanks to the robotics community for their continuous support and feedback.
